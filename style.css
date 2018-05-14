@@ -1,0 +1,210 @@
+body {
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: Calibri,Helvetica,sans-serif;
+    color: #373737;
+}
+
+header {
+    background-color: white;
+    position:fixed;
+    top: 0;
+    height: 68px;
+    /*font-size: 200%;*/
+    /*font-weight: bold;*/
+    font-family: "MS Gothic",Helvetica,sans-serif;
+    margin:auto;
+    /*width:70%;*/
+    /*color: #e6e2e2;*/
+    /*padding: 10px;*/
+    text-shadow: 1px 1px 1px ;
+}
+
+/*header * {*/
+    /*vertical-align: bottom;*/
+/*}*/
+
+/*header img {*/
+    /*!*filter: drop-shadow(-1px -1px 3px white);*!*/
+    /*width: 80%;*/
+/*}*/
+
+main {
+    /*background-color: rgba(90, 92, 107, 0.2);*/
+    margin-top:68px;
+
+}
+
+nav {
+    background-color: white;
+    padding: 5px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+nav ul {
+    padding:1px;
+    margin:0.1em;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding:0.1em;
+    list-style-type:none;
+}
+
+nav ul li a:link,a:visited
+{
+    display:block;
+    width:80px;
+    font-weight:bold;
+    color:#373737;
+    text-align:center;
+    padding:3px;
+    text-decoration:none;
+}
+nav ul li a:hover,a:active
+{
+    background-color: #DCD0C0;
+}
+
+main table{
+    font-size: 18px;
+    width: 100%;
+    overflow:hidden;
+}
+
+form {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #FFFFFF;
+    font-size: 15px;
+    vertical-align: middle;
+    color: rgba(255.255.255.0.5);
+    margin-bottom: 0;
+}
+
+main hr {
+    width: 90%;
+}
+
+main img {
+    width: 100%;
+}
+
+form legend {
+    text-align: left;
+}
+
+
+.subtitle {
+    font-family:  Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: ;
+}
+
+.topbox {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topbox img {
+    width: 80%;
+    margin: 0 auto;
+}
+#movies {
+    width: 90%;
+    margin: 0 auto;
+}
+#movies .downbox {
+    width: 25%;
+    margin: 0 auto;
+    float:left;
+    vertical-align: middle;
+}
+#movies .downbox img{
+    width: 60%;
+    margin: 5% auto;
+}
+
+.halfbox {
+    width: 46%;
+    float:left;
+    margin: 0 1%;
+}
+
+.halfdownbox {
+    width: 22%;
+    float:left;
+    margin: 0 auto;
+    padding: 0 1%;
+    font-size: 18px;
+    vertical-align: bottom;
+}
+
+#timetable {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#formbox {
+    width: 80%;
+    margin: 0 auto;
+}
+#formbox img {
+    width:60%;
+}
+
+.seatForm {
+    width: 30%;
+    float:left;
+    margin: 0 1.6%;
+    text-align: left;
+}
+
+#button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none;
+    color: #fff;
+    background-color: rgba(0, 16, 69, 0.85);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+}
+
+
+#button:hover {background-color: rgba(0, 23, 106, 0.78)
+}
+
+#button:active {
+    background-color: #00176a;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+#submit {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none;
+    color: #fff;
+    background-color: rgba(0, 16, 69, 0.85);
+    border: none;
+}

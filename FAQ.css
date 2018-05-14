@@ -1,0 +1,165 @@
+body{
+  background-color: white;
+  font-size: 12px;
+  font-family:"Century Gothic",sans-serif;
+  line-height: 28px;
+  margin: 0px;
+
+}
+#container{
+  width: 1280px;
+  margin:0px auto;
+}
+#Menu{
+   width:1280px;
+   height: 25px;
+   margin:0px auto;
+   background-color:#ffffff;
+   position:fixed;
+   top:0;
+   box-shadow:1px 1px 3px #f8f8ff;
+}
+#Menu ul{float:right;list-style-type:none;margin: 0px;}
+#Menu ul li{margin: 0px 10px;float: right;display:block;line-height: 28px;font-size:10px;}
+.menuDiv{width:1px;height:25px;background:black;}
+#Menu ul li a:link{text-decoration: none;}
+#Menu ul li a:visited {font-weight:bold;color: Black;}
+#Banner{
+  width: 1280px;
+  height: 200px;
+  background-image: url("images/BG5.jpg");
+  margin:30px auto;
+  clear:both;
+}
+#PageBody{
+  width:1280px;
+  margin:0px auto;
+  height:400px;
+  }
+#SiderBar{
+ width:15%;
+ text-align:left;
+ float:left;
+ clear:left;
+ overflow:hidden;
+ margin:10px 0px 10px 20px;
+ }
+#SiderBar ul{
+  list-style-type:none;
+  margin: 0px;
+}
+#SiderBar ul li{
+  margin: 0px 10px;
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  padding-top: 10px;
+  }
+#SiderBar a:link{
+  text-decoration: none;
+}
+#SiderBar a:visited{
+  color: #333;
+}
+#SiderBar a:hover{
+  background-color: black;
+}
+#MainBody{
+ width:1000px;
+ float:right;
+ clear:right;
+ overflow:hidden;
+ text-align:left;
+}
+ h1{font-family: Garamond,serif;font-size: 220%;padding:5px 0px;}
+ h3,h4{line-height: 10px;}
+ p{}
+
+#FAQ{
+  width:90%;
+  overflow:hidden;
+  margin-bottom:60px;
+
+}
+#about{
+  width:1280px;
+  clear:both;
+  overflow:hidden;
+  margin: 60px 0px 60px 0px;
+  padding: 10px;
+}
+#about img{
+  max-width: 100%;
+}
+#location{
+  width:1280px;
+  clear:both;
+  overflow:hidden;
+  margin: 60px 0px 60px 0px;
+}
+img{
+  box-shadow:2px 2px 3px #aaaaaa;
+}
+#contact{
+  width:99%;
+  clear:both;
+  overflow:hidden;
+  margin: 60px 0px 60px 0px;
+
+
+}
+#contact #info{
+  width: 30%;
+  float:left;
+  padding: 20px;
+}
+#contact #input{
+  width: 60%;
+  padding: 20px 0px 30px 5px;;
+  float:right;
+}
+textarea {
+    width: 95%;
+    height: 230px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-family:"Century Gothic",sans-serif;
+    resize: none;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 5px 20px;
+    margin: 5px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 15%;
+    background-color: #333;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px 33px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#footer{
+  width:1280px;
+  height: 100px;
+  float:none;
+  clear:right;
+  overflow:hidden;
+  margin-top: 10px;
+  padding: 0px 10px;
+  background-color:#333;
+  color: white;
+  border-radius: 3px;
+  box-shadow:10px 20px 10px #aaaaaa;
+}
