@@ -14,8 +14,7 @@
         </div>
 
 
-        <form name="form1" action="cart.php" method="post">
-            <label>Movie: <input type=text name=img value="" readOnly="true"></label>
+            <form name="form1" action="cart.php" method="post">
 
             <h4>Select Time</h4>
             <div class="s_week">
@@ -48,9 +47,9 @@
 
             <h4>check your order</h4>
             <label>Movie: <input type=text name=img value="" readOnly="true"></label>
-<!--            <label>Price: <input type=text name=img value="" readOnly="true"></label>-->
-<!--            <label>Ticket: <input type=text name=img value="" readOnly="true"></label>-->
-<!--            <label>Seats: <input type=text name=img value="" readOnly="true"></label>-->
+            <label>Price: <input type=text name=total value="" readOnly="true"></label>
+            <label>Ticket: <input type=text name=tic value="" readOnly="true"></label>
+            <label>Seats: <input type=text name=seats value="" readOnly="true"></label>
             <label><button type="button" onclick="replacepage()">Clear Selection</button></label>
             <br><br>
 

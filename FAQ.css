@@ -6,30 +6,65 @@ body{
   margin: 0px;
 
 }
+header {
+    background-color: white;
+    position:fixed;
+    top: 0;
+    height: 55px;
+    font-family: "MS Gothic",Helvetica,sans-serif;
+    margin:auto;
+    width:100%;
+    text-shadow: 1px 1px 1px ;
+}
+
+nav {
+    background-color: white;
+    padding: 5px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+}
+nav ul {
+    padding:1px;
+    margin:0.1em;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding:0.1em;
+    list-style-type:none;
+}
+
+nav ul li a:link,a:visited
+{
+    display:block;
+    width:80px;
+    font-weight:bold;
+    color:#373737;
+    text-align:center;
+    padding:3px;
+    text-decoration:none;
+}
+nav ul li a:hover,a:active
+{
+    background-color: #DCD0C0;
+}
+
 #container{
   width: 1280px;
-  margin:0px auto;
+    margin-top:43px;
 }
-#Menu{
-   width:1280px;
-   height: 25px;
-   margin:0px auto;
-   background-color:#ffffff;
-   position:fixed;
-   top:0;
-   box-shadow:1px 1px 3px #f8f8ff;
-}
-#Menu ul{float:right;list-style-type:none;margin: 0px;}
-#Menu ul li{margin: 0px 10px;float: right;display:block;line-height: 28px;font-size:10px;}
-.menuDiv{width:1px;height:25px;background:black;}
-#Menu ul li a:link{text-decoration: none;}
-#Menu ul li a:visited {font-weight:bold;color: Black;}
 #Banner{
   width: 1280px;
   height: 200px;
   background-image: url("images/BG5.jpg");
   margin:30px auto;
   clear:both;
+
 }
 #PageBody{
   width:1280px;
@@ -42,8 +77,8 @@ body{
  float:left;
  clear:left;
  overflow:hidden;
- margin:10px 0px 10px 20px;
- }
+ margin:10px 0px 10px 20px;}
+
 #SiderBar ul{
   list-style-type:none;
   margin: 0px;
@@ -72,9 +107,8 @@ body{
  overflow:hidden;
  text-align:left;
 }
- h2{font-family: Garamond,serif;font-size: 220%;padding:5px 0px;}
- h2,h4{line-height: 10px;}
- p{}
+ h6{font-family: Garamond,serif;font-size: 220%;padding:5px 0px;}
+ h6,h4{line-height: 10px;}
 
 #FAQ{
   width:90%;

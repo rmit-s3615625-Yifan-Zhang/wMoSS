@@ -62,6 +62,7 @@ form {
 }
 
 footer {
+    clear: both;
     background-color: #FFFFFF;
     font-size: 15px;
     vertical-align: middle;

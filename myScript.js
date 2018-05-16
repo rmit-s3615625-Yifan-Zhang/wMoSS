@@ -36,7 +36,8 @@ function switchM(a, b, c, d, e, f, g, h) {
 function Check(x) {
     for (i = 1; i <= 1; i++) document.all.img.value = x
 }
-function replacepage() {
+function replacepage()
+{
     location.reload();
 }
 

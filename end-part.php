@@ -1,7 +1,7 @@
 
 </main>
 
-<footer>
+<footer><hr>
     <div>
         <p>copyright:</p>
     </div>
