@@ -19,7 +19,26 @@ function checkform() {
     }
     myform.submit();
 }
+var mov_n, mov_w, mov_t, mov_seat, mov_total;
 
+function getweek(){
+    mov_w = document.getElementsByName("week");
+    for (i=0; i<mov_w.length; i++) {
+        if (mov_w[i].checked) {
+            alert(mov_w[i].value)
+            // document.getElementById("movie_title").innerHTML="段落已修改。";
+        }
+    }
+}
+
+function gettime(){
+    mov_t = document.getElementsByName("time");
+    for (i=0; i<mov_t.length; i++) {
+        if (mov_t[i].checked) {
+            alert(mov_t[i].value)
+        }
+    }
+}
 
 
 function switchM(a, b, c, d, e, f, g, h) {
@@ -40,9 +59,33 @@ function replacepage()
 {
     location.reload();
 }
+function check1(){
+    mov_n = document.getElementById("mov_n");
+    document.getElementById("movie_title").innerHTML= mov_n.value;
 
 
+}
 
+// var movie_title = document.getElementById("mov_t").value;
+// var movie_session = document.getElementById("mov_t").value
+// function checkticket() {
+//     var movpat = / /;
+//     var sespat = / /;
+//     var seatpat = / /;
+//     if (movpat.test(ind.value)){
+//         checkinfo.innerHTML = 'please select movie';
+//         return;
+//     }
+//     if (sespat.test(session.value)){
+//         checkinfo.innerHTML = 'please select session';
+//         return;
+//     }
+//     if (seatpat.test(SUB.value)){
+//         checkinfo.innerHTML = 'please select seats';
+//         return;
+//     }
+//     myticket.submit();
+// }
 
 //弹出隐藏层
 function ShowDiv(show_div,bg_div){

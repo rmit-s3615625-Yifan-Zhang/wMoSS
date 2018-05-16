@@ -7,7 +7,7 @@
             <td colspan="8" ><h4>The Matrix</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/6.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/6.jpg" ></td>
 
             <td colspan="7"><b>Movie:</b>The Matrix (1999)</td>
         </tr>
@@ -33,7 +33,7 @@
             <td colspan="8" ><h4>Pacific rim</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/8.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/8.jpg" ></td>
             <td colspan="7"><b>Movie:</b>Pacific rim (2013)</td>
         </tr>
         <tr>
@@ -56,7 +56,7 @@
             <td colspan="8" ><h4>Holiday</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/3.jpg"></td>
+            <td rowspan="3" align="center"><img src="img/3.jpg"></td>
             <td colspan="7"><b>Movie:</b>Holiday (2014)</td>
         </tr>
         <tr>
@@ -85,7 +85,7 @@
             <td colspan="8" ><h4>The Twilight Saga</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/4.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/4.jpg" ></td>
             <td colspan="7"><b>Movie:</b>The Twilight Saga: Breaking Dawn - Part 2 (2012)</td>
         </tr>
         <tr>
@@ -114,7 +114,7 @@
             <td colspan="8" ><h4>Hard Tide</h4> </td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/1.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/1.jpg" ></td>
             <td colspan="7"><b>Moive:</b>Hard Tide(2015)</td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@
             <td colspan="8"><h4>The Mechanic</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/5.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/5.jpg" ></td>
             <td colspan="7"><b>Movie:</b>The Mechanic(2014)</td>
         </tr>
         <tr>
@@ -171,7 +171,7 @@
             <td colspan="8" ><h4>Goodfellas</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/7.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/7.jpg" ></td>
             <td colspan="7"><b>Movie:</b>Goodfellas（1990）</td>
         </tr>
         <tr>
@@ -200,7 +200,7 @@
             <td colspan="8" ><h4>Portal</h4></td>
         </tr>
         <tr>
-            <td rowspan="3" align="center"><img src="image1/2.jpg" ></td>
+            <td rowspan="3" align="center"><img src="img/2.jpg" ></td>
             <td colspan="7"><b>Movie:</b>Portal: Origins(2013)</td>
         </tr>
         <tr>

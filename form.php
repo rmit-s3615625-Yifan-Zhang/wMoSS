@@ -13,49 +13,49 @@
             <img src='img/8.jpg' name="Pacific rim" onclick=switchM(8,1,2,3,4,5,6,7,9);Check(this.name,"") class="off hot">
         </div>
 
-
             <form name="form1" action="cart.php" method="post">
 
             <h4>Select Time</h4>
             <div class="s_week">
                 <input type="radio" value= "Monday" id= "Mon" name="week" class="t_radio mon-radio" disabled="true" >
                 <label for="Mon">Monday(Closed)</label>
-                <input type="radio" value= "Tuesday" id= "Tue" name="week" class="t_radio">
+                <input type="radio" value= "Tuesday" id= "Tue" name="week" class="t_radio" onclick="getweek()">
                 <label for="Tue">Tuesday</label>
-                <input type="radio" value= "Wednesday" id= "Wed" name="week" class="t_radio" >
+                <input type="radio" value= "Wednesday" id= "Wed" name="week" class="t_radio" onclick="getweek()">
                 <label for="Wed">Wednesday</label>
-                <input type="radio" value= "Thursday" id= "Thu" name="week" class="t_radio">
+                <input type="radio" value= "Thursday" id= "Thu" name="week" class="t_radio" onclick="getweek()">
                 <label for="Thu">Thursday</label>
-                <input type="radio" value= "Friday" id= "Fri" name="week" class="t_radio">
+                <input type="radio" value= "Friday" id= "Fri" name="week" class="t_radio" onclick="getweek()">
                 <label for="Fri">Friday</label>
-                <input type="radio" value= "Saturday" id= "Sat" name="week" class="t_radio">
+                <input type="radio" value= "Saturday" id= "Sat" name="week" class="t_radio" onclick="getweek()">
                 <label for="Sat">Saturday</label>
-                <input type="radio" value= "Sunday" id= "Sun" name="week" class="t_radio">
+                <input type="radio" value= "Sunday" id= "Sun" name="week" class="t_radio" onclick="getweek()">
                 <label for="Sun">Sunday</label>
             </div>
 
             <div class="s_time">
-                <input type="radio" value= "11:00" id= "t1" name="time" class="t_radio">
+                <input type="radio" value= "11:00" id= "t1" name="time" class="t_radio" onclick="gettime()">
                 <label for="t1">11:00</label>
-                <input type="radio" value= "14:00" id= "t2" name="time" class="t_radio">
+                <input type="radio" value= "14:00" id= "t2" name="time" class="t_radio" onclick="gettime()">
                 <label for="t2">14:00</label>
-                <input type="radio" value= "17:00" id= "t3" name="time" class="t_radio">
+                <input type="radio" value= "17:00" id= "t3" name="time" class="t_radio" onclick="gettime()">
                 <label for="t3">17:00</label>
-                <input type="radio" value= "20:00" id= "t4" name="time" class="t_radio">
+                <input type="radio" value= "20:00" id= "t4" name="time" class="t_radio" onclick="gettime()">
                 <label for="t4">20:00</label>
             </div>
 
             <h4>check your order</h4>
-            <label>Movie: <input type=text name=img value="" readOnly="true"></label>
-            <label>Price: <input type=text name=total value="" readOnly="true"></label>
+            <label>Movie: <input type=text name=img id="mov_n" value="" readOnly="true"></label>
+            <label>Price: <input type=temoviext name=total value="" readOnly="true"></label>
             <label>Ticket: <input type=text name=tic value="" readOnly="true"></label>
             <label>Seats: <input type=text name=seats value="" readOnly="true"></label>
             <label><button type="button" onclick="replacepage()">Clear Selection</button></label>
             <br><br>
 
 
-        <input id="Button1" type="button" value="Select seat" onclick="ShowDiv('MyDiv','fade')">
-        <button id="button">Add to your cart</button>
+        <input id="Button1" type="button" value="Select seat" onclick="ShowDiv('MyDiv','fade');check1()";>
+
+                <button id="button">Add to your cart</button>
 
         </form>
 </div>
