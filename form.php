@@ -1,129 +1,62 @@
 <div class="subtitle">
-    <h4><a id="N2">BOOKING NOW</a></h4>
+    <h2><a id="N2">BOOKING NOW</a></h2>
 </div>
-<hr>
-<div id="formbox">
-    <form action="cart.php" method="post" >
-        <fieldset><legend>Booking Form</legend>
-            <div>
-                <div class="subtitle">
-                    <label>Select Movie</label><br>
-                </div>
+        <h4>Select Movie</h4>
+        <div id="s_mov">
+            <img src='img/1.jpg' name="Hard Tide" onclick=switchM(1,2,3,4,5,6,7,8,9);Check(this.name,"") class="off se1">
+            <img src='img/2.jpg' name="Portal" onclick=switchM(2,1,3,4,5,6,7,8,9);Check(this.name,"") class="off se2">
+            <img src='img/3.jpg' name="Holiday" onclick=switchM(3,1,2,4,5,6,7,8,9);Check(this.name,"") class="off se1">
+            <img src='img/4.jpg' name="The Twilight Saga" onclick=switchM(4,1,2,3,5,6,7,8,9);Check(this.name,"") class="off se2">
+            <img src='img/5.jpg' name="The Mechanic" onclick=switchM(5,1,2,3,4,6,7,8,9);Check(this.name,"") class="off se2">
+            <img src='img/6.jpg' name="The Matrix" onclick=switchM(6,1,2,3,4,5,7,8,9);Check(this.name,"") class="off hot">
+            <img src='img/7.jpg' name="Goodfellas" onclick=switchM(7,1,2,3,4,5,6,8,9);Check(this.name,"") class="off se1">
+            <img src='img/8.jpg' name="Pacific rim" onclick=switchM(8,1,2,3,4,5,6,7,9);Check(this.name,"") class="off hot">
+        </div>
 
-                <div class="s_movie">
-                    <input type="radio" value= "Hard Tide" id= "mov01" name="movie">
-                    <img id="img1" src='img/1.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "Portal" id= "mov02" name="movie">
-                    <img id="img2" src='img/2.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "Holiday" id= "mov03" name="movie" class="se1">
-                    <img id="ing3" src='img/3.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "The Twilight Saga" id= "mov04" name="movie" class="se2">
-                    <img id="img4" src='img/4.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "The Mechanic" id= "mov05" name="movie">
-                    <img id="img5" src='img/5.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "The Matrix" id= "movl06" name="movie" class="hot">
-                    <img id="img6" src='img/6.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "Goodfellas" id= "mov07" name="movie">
-                    <img id="img7" src='img/7.jpg' onclick="s_mov(this.id)">
-                    <input type="radio" value= "Pacific rim" id= "mov08" name="movie" class="hot">
-                    <img id="img8" src='img/8.jpg' onclick="s_mov(this.id)">
-                </div>
 
-<!--                <input type="radio" onclick="switchMovie('WF')"  name="movie" value="DUNKIRK(WF)"/>DUNKIRK(WF)-->
-<!--                <input type="radio" onclick="switchMovie('AC')"  name="movie" value="BATMAN THE DARK NIGHT(AC)"/>BATMAN THE DARK NIGHT(AC)-->
-<!--                <input type="radio" onclick="switchMovie('RC')"  name="movie" value="TITANIC(RC)"/>TITANIC(RC)-->
-<!--                <input type="radio" onclick="switchMovie('CH')"  name="movie" value="FROZEN(CH)"/>FROZEN(CH)-->
+        <form name="form1" action="cart.php" method="post">
+            <label>Movie: <input type=text name=img value="" readOnly="true"></label>
+
+            <h4>Select Time</h4>
+            <div class="s_week">
+                <input type="radio" value= "Monday" id= "Mon" name="week" class="t_radio mon-radio" disabled="true" >
+                <label for="Mon">Monday(Closed)</label>
+                <input type="radio" value= "Tuesday" id= "Tue" name="week" class="t_radio">
+                <label for="Tue">Tuesday</label>
+                <input type="radio" value= "Wednesday" id= "Wed" name="week" class="t_radio" >
+                <label for="Wed">Wednesday</label>
+                <input type="radio" value= "Thursday" id= "Thu" name="week" class="t_radio">
+                <label for="Thu">Thursday</label>
+                <input type="radio" value= "Friday" id= "Fri" name="week" class="t_radio">
+                <label for="Fri">Friday</label>
+                <input type="radio" value= "Saturday" id= "Sat" name="week" class="t_radio">
+                <label for="Sat">Saturday</label>
+                <input type="radio" value= "Sunday" id= "Sun" name="week" class="t_radio">
+                <label for="Sun">Sunday</label>
             </div>
 
-            <hr>
-            <div>
-                <input type="hidden" id="session" name="session" />
-                <label id="s0" >Select Session</label>
-                <select id="s1" onchange="calSubtotal();">
-                    <option value=0>select session</option>
-                    <option value="MON-06">Monday 6:00PM</option>
-                    <option value="TUE-06">Tuesday 6:00PM</option>
-                    <option value="WED-06">Wednesday 6:00PM</option>
-                    <option value="THU-06">Thursday 6:00PM</option>
-                    <option value="FRI-06">Friday 6:00PM</option>
-                    <option value="SAT-09">Saturday 9:00PM</option>
-                    <option value="SUN-09">Sunday 9:00PM</option>
-                </select>
-
-                <select id="s2" onchange="calSubtotal();">
-                    <option value=0>select session</option>
-                    <option value="WED-09">Wednesday 9:00PM</option>
-                    <option value="THU-09">Thursday 9:00PM</option>
-                    <option value="FRI-09">Friday 9:00PM</option>
-                    <option value="SAT-03">Saturday 3:00PM</option>
-                    <option value="SUN-03">Sunday 3:00PM</option>
-                </select>
-
-                <select id="s3" onchange="calSubtotal();">
-                    <option value=0>select session</option>
-                    <option value="MON-09">Monday 9:00PM</option>
-                    <option value="TUE-09">Tuesday 9:00PM</option>
-                    <option value="SAT-06">Saturday 6:00PM</option>
-                    <option value="SUN-06">Sunday 6:00PM</option>
-                </select>
-
-                <select id="s4" onchange="calSubtotal();">
-                    <option value=0>select session</option>
-                    <option value="MON-03">Monday 3:00PM</option>
-                    <option value="TUE-03">Tuesday 3:00PM</option>
-                    <option value="WED-03">Wednesday 3:00PM</option>
-                    <option value="THU-03">Thursday 3:00PM</option>
-                    <option value="FRI-03">Friday 3:00PM</option>
-                    <option value="SAT-09">Saturday 12:00PM</option>
-                    <option value="SUN-09">Sunday 12:00PM</option>
-                </select>
+            <div class="s_time">
+                <input type="radio" value= "11:00" id= "t1" name="time" class="t_radio">
+                <label for="t1">11:00</label>
+                <input type="radio" value= "14:00" id= "t2" name="time" class="t_radio">
+                <label for="t2">14:00</label>
+                <input type="radio" value= "17:00" id= "t3" name="time" class="t_radio">
+                <label for="t3">17:00</label>
+                <input type="radio" value= "20:00" id= "t4" name="time" class="t_radio">
+                <label for="t4">20:00</label>
             </div>
 
-            <fieldset><legend>Seats</legend>
-                <div class="seatForm">
-                    <fieldset><legend>Standard</legend>
-                        <p><label>Adult</label>
-                            <input id="SF" name=seats[SF] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat1"></p>
-                        <p><label>Concession</label>
-                            <input id="SP" name=seats[SP] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat2"></p>
-                        <p><label>Child</label>
-                            <input id="SC" name=seats[SC] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat3"></p>
-                    </fieldset>
-                </div>
+            <h4>check your order</h4>
+            <label>Movie: <input type=text name=img value="" readOnly="true"></label>
+<!--            <label>Price: <input type=text name=img value="" readOnly="true"></label>-->
+<!--            <label>Ticket: <input type=text name=img value="" readOnly="true"></label>-->
+<!--            <label>Seats: <input type=text name=img value="" readOnly="true"></label>-->
+            <label><button type="button" onclick="replacepage()">Clear Selection</button></label>
+            <br><br>
 
-                <div class="seatForm">
-                    <fieldset><legend>First Class</legend>
-                        <p><label>Adult</label>
-                            <input id="FA" name=seats[FA] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat4"></p>
-                        <p><label>Child</label>
-                            <input id="FC" name=seats[FC] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat5"></p>
-                    </fieldset>
-                </div>
 
-                <div class="seatForm">
-                    <fieldset><legend>Bean Bags</legend>
-                        <p><label>Adult</label>
-                            <input id="BA" name=seats[BA] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat6"></p>
-                        <p><label>Family</label>
-                            <input id="BF" name=seats[BF] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat7"></p>
-                        <p><label>Child</label>
-                            <input id="BC" name=seats[BC] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>
-                        <p id="seat8"></p>
-                    </fieldset>
-                </div>
-                <p id="subtotal">Subtotal: </p>
-            </fieldset>
+        <input id="Button1" type="button" value="Select seat" onclick="ShowDiv('MyDiv','fade')">
+        <button id="button">Add to your cart</button>
 
-            <button id="button">Add to your cart</button>
-
-        </fieldset>
-    </form>
+        </form>
 </div>
-<hr>

@@ -21,11 +21,11 @@
             display: none;
         }
 
-        .regular-radio {
+        .t_radio {
             display: none;
         }
 
-        .regular-radio + label {
+        .t_radio + label {
             -webkit-appearance: none;
             background-color: #fafafa;
             border: 1px solid #cacece;
@@ -36,7 +36,7 @@
             padding: 16px;
         }
 
-        .regular-radio:checked + label {
+        .t_radio:checked + label {
             background-color: #DCD0C0;
             color: #373737;
             border: 1px solid #adb8c0;
@@ -91,30 +91,30 @@
 
     <h3>Select Time</h3>
     <div class="s_week">
-        <input type="radio" value= "Monday" id= "Mon" name="week" class="regular-radio">
+        <input type="radio" value= "Monday" id= "Mon" name="week" class="t_radio">
         <label for="Mon">Monday</label>
-        <input type="radio" value= "Tuesday" id= "Tue" name="week" class="regular-radio">
+        <input type="radio" value= "Tuesday" id= "Tue" name="week" class="t_radio">
         <label for="Tue">Tuesday</label>
-        <input type="radio" value= "Wednesday" id= "Wed" name="week" class="regular-radio">
+        <input type="radio" value= "Wednesday" id= "Wed" name="week" class="t_radio">
         <label for="Wed">Wednesday</label>
-        <input type="radio" value= "Thursday" id= "Thu" name="week" class="regular-radio">
+        <input type="radio" value= "Thursday" id= "Thu" name="week" class="t_radio">
         <label for="Thu">Thursday</label>
-        <input type="radio" value= "Friday" id= "Fri" name="week" class="regular-radio">
+        <input type="radio" value= "Friday" id= "Fri" name="week" class="t_radio">
         <label for="Fri">Friday</label>
-        <input type="radio" value= "Saturday" id= "Sat" name="week" class="regular-radio">
+        <input type="radio" value= "Saturday" id= "Sat" name="week" class="t_radio">
         <label for="Sat">Saturday</label>
-        <input type="radio" value= "Sunday" id= "Sun" name="week" class="regular-radio">
+        <input type="radio" value= "Sunday" id= "Sun" name="week" class="t_radio">
         <label for="Sun">Sunday</label>
     </div>
 
     <div class="s_time">
-        <input type="radio" value= "11:00" id= "t1" name="time" class="regular-radio">
+        <input type="radio" value= "11:00" id= "t1" name="time" class="t_radio">
         <label for="t1">11:00</label>
-        <input type="radio" value= "14:00" id= "t2" name="time" class="regular-radio">
+        <input type="radio" value= "14:00" id= "t2" name="time" class="t_radio">
         <label for="t2">14:00</label>
-        <input type="radio" value= "17:00" id= "t3" name="time" class="regular-radio">
+        <input type="radio" value= "17:00" id= "t3" name="time" class="t_radio">
         <label for="t3">17:00</label>
-        <input type="radio" value= "20:00" id= "t4" name="time" class="regular-radio">
+        <input type="radio" value= "20:00" id= "t4" name="time" class="t_radio">
         <label for="t4">20:00</label>
     </div>
 
