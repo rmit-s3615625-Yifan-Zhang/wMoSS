@@ -7,6 +7,4 @@
         <li><a href="cart.php">CART</a></li>
     </ul>
 </nav>
-
 <main>
-    <hr>

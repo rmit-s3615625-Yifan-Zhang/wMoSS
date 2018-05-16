@@ -10,6 +10,7 @@
                     <label>Select Movie</label><br>
                 </div>
 
+
                 <input type="radio" onclick="switchMovie('WF')"  name="movie" value="DUNKIRK(WF)"/>DUNKIRK(WF)
                 <input type="radio" onclick="switchMovie('AC')"  name="movie" value="BATMAN THE DARK NIGHT(AC)"/>BATMAN THE DARK NIGHT(AC)
                 <input type="radio" onclick="switchMovie('RC')"  name="movie" value="TITANIC(RC)"/>TITANIC(RC)
@@ -61,7 +62,7 @@
             </div>
 
             <fieldset><legend>Seats</legend>
-                <div class="seatForm">
+                         <div class="seatForm">
                     <fieldset><legend>Standard</legend>
                         <p><label>Adult</label>
                             <input id="SF" name=seats[SF] type="number" min="0" max="10" value="0" onchange="calSubtotal()"></p>

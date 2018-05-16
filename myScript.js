@@ -1,7 +1,6 @@
-var s1;
-var s2;
-var s3;
-var s4;
+
+var s1,s2,s3,s4;
+
 try
 {
   s1 = document.getElementById("s1");
@@ -10,16 +9,15 @@ try
   s4 = document.getElementById("s4");
 
     //s0.style.display = "none";
-    s1.style.display = "none";
-    s2.style.display = "none";
-    s3.style.display = "none";
-    s4.style.display = "none";  
+    // s1.style.display = "none";
+    // s2.style.display = "none";
+    // s3.style.display = "none";
+    // s4.style.display = "none";
 }
 catch(e)
 {
     //
 }
-
 
 function switchMovie(GR){
 

@@ -9,30 +9,15 @@ header {
     background-color: white;
     position:fixed;
     top: 0;
-    height: 68px;
-    /*font-size: 200%;*/
-    /*font-weight: bold;*/
+    height: 43px;
     font-family: "MS Gothic",Helvetica,sans-serif;
     margin:auto;
-    /*width:70%;*/
-    /*color: #e6e2e2;*/
-    /*padding: 10px;*/
+    width:100%;
     text-shadow: 1px 1px 1px ;
 }
 
-/*header * {*/
-    /*vertical-align: bottom;*/
-/*}*/
-
-/*header img {*/
-    /*!*filter: drop-shadow(-1px -1px 3px white);*!*/
-    /*width: 80%;*/
-/*}*/
-
 main {
-    /*background-color: rgba(90, 92, 107, 0.2);*/
-    margin-top:68px;
-
+    margin-top:43px;
 }
 
 nav {
@@ -72,16 +57,9 @@ nav ul li a:hover,a:active
     background-color: #DCD0C0;
 }
 
-main table{
-    font-size: 18px;
-    width: 100%;
-    overflow:hidden;
-}
-
 form {
     font-size: 20px;
 }
-
 
 footer {
     background-color: #FFFFFF;
@@ -91,11 +69,7 @@ footer {
     margin-bottom: 0;
 }
 
-main hr {
-    width: 90%;
-}
-
-main img {
+img {
     width: 100%;
 }
 
@@ -103,11 +77,13 @@ form legend {
     text-align: left;
 }
 
-
 .subtitle {
     font-family:  Helvetica, sans-serif;
     font-size: 15px;
-    background-color: ;
+    background-color: #DCD0C0;
+    padding: 1px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .topbox {
@@ -150,8 +126,9 @@ form legend {
 }
 
 #timetable {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+    text-align: left;
 }
 
 #formbox {
@@ -172,14 +149,14 @@ form legend {
 #button {
     display: inline-block;
     padding: 15px 25px;
-    font-size: 24px;
+    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     outline: none;
-    color: #fff;
-    background-color: rgba(0, 16, 69, 0.85);
+    color: #373737;
+    background-color: #DCD0C0;
     border: none;
     border-radius: 15px;
     box-shadow: 0 4px #999;
@@ -207,4 +184,52 @@ form legend {
     color: #fff;
     background-color: rgba(0, 16, 69, 0.85);
     border: none;
+}
+
+
+table{
+    /*border: 0.5px red solid;*/
+    font-size: 13px;
+    font-family:"Century Gothic",sans-serif;
+    line-height: 28px;
+    width:70%;
+    margin: 20px auto;
+    text-align: left;
+}
+td{
+    width: 10%;
+    /*border: 0.5px red solid;*/
+}
+
+.choice{
+    background-color: #66CC00;
+    color: white;
+    border-radius: 5px;
+
+}
+.theatre{
+    font-size: 14px;
+    font-weight:bold;
+    background-color: #f7c858;
+    border-radius: 5px;
+}
+.rest{
+    background-color: #f73300;
+    border-radius: 5px;
+}
+.timetable {
+    text-align: center;
+}
+img{
+    width: 100%;
+    max-width: 100%
+}
+h4{
+    background-color:#333;
+    color: white;
+    padding-left:15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-style:italic;
+    font-size: 20px;
 }

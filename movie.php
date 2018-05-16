@@ -1,23 +1,10 @@
 <div class="subtitle">
     <h2>ALL MOVIES</h2>
 </div>
-<hr>
+
 <div id="movies">
     <div class="downbox">
         <img src='img/1.jpg' alt='2mov'/>
-        <!-- Image sourced from https://en.wikipedia.org/wiki/The_Dark_Knight_(film) -->
-        <!--    <table>-->
-        <!--        <tr>-->
-        <!--            <th colspan="2">BATMAN THE DARK NIGHT</th>-->
-        <!--        </tr>-->
-        <!--        <tr>-->
-        <!--            <td colspan="2">Genre: Action(AC)</td>-->
-        <!--        </tr>-->
-        <!--        <tr>-->
-        <!--            <td>Wed-Fri<br> 9:00 PM</td>-->
-        <!--            <td>Sat-Sun<br> 3:00 PM</td>-->
-        <!--        </tr>-->
-        <!--    </table>-->
     </div>
     <div class="downbox">
         <img src='img/2.jpg' alt='3mov'/>

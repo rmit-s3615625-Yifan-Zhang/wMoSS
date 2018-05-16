@@ -72,8 +72,8 @@ body{
  overflow:hidden;
  text-align:left;
 }
- h1{font-family: Garamond,serif;font-size: 220%;padding:5px 0px;}
- h3,h4{line-height: 10px;}
+ h2{font-family: Garamond,serif;font-size: 220%;padding:5px 0px;}
+ h2,h4{line-height: 10px;}
  p{}
 
 #FAQ{
