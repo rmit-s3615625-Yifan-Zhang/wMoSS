@@ -10,10 +10,29 @@
                     <label>Select Movie</label><br>
                 </div>
 
-                <input type="radio" onclick="switchMovie('WF')"  name="movie" value="DUNKIRK(WF)"/>DUNKIRK(WF)
-                <input type="radio" onclick="switchMovie('AC')"  name="movie" value="BATMAN THE DARK NIGHT(AC)"/>BATMAN THE DARK NIGHT(AC)
-                <input type="radio" onclick="switchMovie('RC')"  name="movie" value="TITANIC(RC)"/>TITANIC(RC)
-                <input type="radio" onclick="switchMovie('CH')"  name="movie" value="FROZEN(CH)"/>FROZEN(CH)
+                <div class="s_movie">
+                    <input type="radio" value= "Hard Tide" id= "mov01" name="movie">
+                    <img id="img1" src='img/1.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "Portal" id= "mov02" name="movie">
+                    <img id="img2" src='img/2.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "Holiday" id= "mov03" name="movie" class="se1">
+                    <img id="ing3" src='img/3.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "The Twilight Saga" id= "mov04" name="movie" class="se2">
+                    <img id="img4" src='img/4.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "The Mechanic" id= "mov05" name="movie">
+                    <img id="img5" src='img/5.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "The Matrix" id= "movl06" name="movie" class="hot">
+                    <img id="img6" src='img/6.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "Goodfellas" id= "mov07" name="movie">
+                    <img id="img7" src='img/7.jpg' onclick="s_mov(this.id)">
+                    <input type="radio" value= "Pacific rim" id= "mov08" name="movie" class="hot">
+                    <img id="img8" src='img/8.jpg' onclick="s_mov(this.id)">
+                </div>
+
+<!--                <input type="radio" onclick="switchMovie('WF')"  name="movie" value="DUNKIRK(WF)"/>DUNKIRK(WF)-->
+<!--                <input type="radio" onclick="switchMovie('AC')"  name="movie" value="BATMAN THE DARK NIGHT(AC)"/>BATMAN THE DARK NIGHT(AC)-->
+<!--                <input type="radio" onclick="switchMovie('RC')"  name="movie" value="TITANIC(RC)"/>TITANIC(RC)-->
+<!--                <input type="radio" onclick="switchMovie('CH')"  name="movie" value="FROZEN(CH)"/>FROZEN(CH)-->
             </div>
 
             <hr>
