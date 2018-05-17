@@ -13,14 +13,14 @@
             <div class="front">Screen</div>
         </div>
         <div class="booking-details">
-            <p>movie：<span id="movie_title">星际穿越</span></p>
-            <p>time：<span id="movie_session">11月14日 21:00</span></p>
+            <p>movie：<span id="movie_title"></span></p>
+            <p>time：<span id="movie_session"></span></p>
             <p>seat：</p>
             <ul id="selected-seats"></ul>
             <p>ticket：<span id="counter">0</span></p>
             <p>total：<b> $ <span id="total">0</span></b></p>
 
-            <button class="checkout-button">Confirm</button>
+            <button class="checkout-button" onclick=check2();CloseDiv('MyDiv','fade')>Confirm</button>
 
             <div id="legend"></div>
         </div>
@@ -34,7 +34,7 @@
 <script type="text/javascript">
     var price = 20; //票价
     $(document).ready(function() {
-        var $cart = $('#selected-seats'), //座位区
+        var $seats = $('#selected-seats'), //座位区
             $counter = $('#counter'), //票数
             $total = $('#total'); //总计金额
 
@@ -63,9 +63,9 @@
             click: function () { //点击事件
                 if (this.status() == 'available') { //available
                     $('<li>R'+(this.settings.row+1)+'S'+this.settings.label+'</li>')
-                        .attr('id', 'cart-item-'+this.settings.id)
+                        .attr('id', 'seats-item-'+this.settings.id)
                         .data('seatId', this.settings.id)
-                        .appendTo($cart);
+                        .appendTo($seats);
 
                     $counter.text(sc.find('selected').length+1);
                     $total.text(recalculateTotal(sc)+price);
@@ -78,7 +78,7 @@
                     $total.text(recalculateTotal(sc)-price);
 
                     //删除已预订座位
-                    $('#cart-item-'+this.settings.id).remove();
+                    $('#seats-item-'+this.settings.id).remove();
                     //available
                     return 'available';
                 } else if (this.status() == 'unavailable') { //sold
@@ -98,7 +98,13 @@
         sc.find('selected').each(function () {
             total += price;
         });
-
         return total;
     }
+
+    function check2 (){
+        document.getElementById("mov_ticket").value = document.getElementById("counter").innerHTML;
+        document.getElementById("mov_p").value = document.getElementById("total").innerHTML;
+
+    }
+
 </script>

@@ -46,9 +46,9 @@
 
             <h4>check your order</h4>
             <label>Movie: <input type=text name=img id="mov_n" value="" readOnly="true"></label>
-            <label>Price: <input type=temoviext name=total value="" readOnly="true"></label>
-            <label>Ticket: <input type=text name=tic value="" readOnly="true"></label>
-            <label>Seats: <input type=text name=seats value="" readOnly="true"></label>
+            <label>Price: <input type=text name=total id="mov_p" value="" readOnly="true"></label>
+            <label>Ticket: <input type=text name=ticket id="mov_ticket" value="" readOnly="true"></label>
+            <label>Seats: <input type=text name=seats id="mov_seat" value="" readOnly="true"></label>
             <label><button type="button" onclick="replacepage()">Clear Selection</button></label>
             <br><br>
 

@@ -132,6 +132,16 @@ form legend {
     text-align: left;
 }
 
+#carttable {
+    background-color: rgba(0, 0, 0, 0.71);
+    font-style: inherit;
+    font-weight: bold;
+    color: white;
+}
+#carttable img{
+    magin: 0 auto;
+}
+
 #formbox {
     width: 80%;
     margin: 0 auto;
