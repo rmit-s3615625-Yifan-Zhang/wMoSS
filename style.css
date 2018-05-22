@@ -132,15 +132,15 @@ form legend {
     text-align: left;
 }
 
-#carttable {
+.carttable {
     background-color: rgba(0, 0, 0, 0.71);
     font-style: inherit;
     font-weight: bold;
     color: white;
 }
-#carttable img{
-    magin: 0 auto;
-}
+/*.carttable img{*/
+    /*margin: 0 auto;*/
+/*}*/
 
 #formbox {
     width: 80%;
@@ -157,7 +157,7 @@ form legend {
     text-align: left;
 }
 
-#button {
+.button {
     display: inline-block;
     padding: 15px 25px;
     font-size: 15px;
@@ -174,11 +174,11 @@ form legend {
 }
 
 
-#button:hover {background-color: rgba(0, 23, 106, 0.78)
+.button:hover {background-color: #c08350;
 }
 
-#button:active {
-    background-color: #00176a;
+.button:active {
+    background-color: #c08350;
     box-shadow: 0 1px #666;
     transform: translateY(4px);
 }
@@ -213,19 +213,19 @@ td{
 }
 
 .choice{
-    background-color: #66CC00;
-    color: white;
+    background-color: #DCD0C0;
+    font-weight:bold;
     border-radius: 5px;
 
 }
 .theatre{
     font-size: 14px;
     font-weight:bold;
-    background-color: #f7c858;
+    background-color: #DCD0C0;
     border-radius: 5px;
 }
 .rest{
-    background-color: #f73300;
+    background-color: rgba(138, 138, 138, 0.23);
     border-radius: 5px;
 }
 .timetable {
@@ -253,7 +253,7 @@ h4{
     margin: 2.5%;
 }
 
-.on{border:7px solid #C0B283;}
+.on{border:7px solid #c08350;}
 .off{border:7px solid rgba(255, 255, 255, 0);}
 
 .t_radio {
@@ -320,7 +320,7 @@ h4{
     overflow: auto;
 }
 
-/*The following code is required for the third party plug-in, */
+/*The following code is required for the third party plug-in, and used for education only */
 /*Copyright 2013, 2014 Mateusz Markowski, */
 /*https://github.com/mateuszmarkowski/jQuery-Seat-Charts*/
 .demo{width:700px; margin:40px auto 0 auto; min-height:450px;}
@@ -346,3 +346,85 @@ span.seatCharts-legendDescription {margin-left: 5px;line-height: 30px;}
 #selected-seats {max-height: 150px;overflow-y: auto;overflow-x: none;width: 200px;}
 #selected-seats li{float:left; width:72px; height:26px; line-height:26px; border:1px solid #d3d3d3; background:#f7f7f7; margin:6px; font-size:14px; font-weight:bold; text-align:center}
 /*up to here*/
+
+
+*{padding: 0;margin: 0;
+}
+.banner {
+    width: 100%;
+    min-width: 1200px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner_index {
+    position: relative;
+}
+
+.banner_slide_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    transition: opacity 0.5s;
+    opacity: 1;
+    z-index: 5;
+    /*background: url(img/banner.jpg) no-repeat;*/
+    background-position: center 0;
+}
+
+.banner_slide_2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 1;
+    /*background: url(img/banner02_02.jpg) no-repeat;*/
+    background-position: center 0;
+}
+
+.banner_slide_3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 1;
+    /*background: url(img/banner3.jpg) no-repeat;*/
+    background-position: center 0;
+}
+.banner_slide_4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 1;
+    /*background: url(img/banner3.jpg) no-repeat;*/
+    background-position: center 0;
+}
+.banner_slide_5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    transition: opacity 0.5s;
+    opacity: 0;
+    z-index: 1;
+    /*background: url(img/banner3.jpg) no-repeat;*/
+    background-position: center 0;
+}

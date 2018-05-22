@@ -1,6 +1,4 @@
 
-
-<!--弹出层时背景层DIV-->
 <div id="fade" class="black_overlay">
 </div>
 <div id="MyDiv" class="white_content">
@@ -104,7 +102,18 @@
     function check2 (){
         document.getElementById("mov_ticket").value = document.getElementById("counter").innerHTML;
         document.getElementById("mov_p").value = document.getElementById("total").innerHTML;
-
+        // document.getElementById("mov_seat").value = document.getElementById('selected-seats').getElementsByTagName('li');
+        // var seatde=document.getElementById('booking-details');
+        // var ul=seatde.childNodes.item(0);
+        // var lis=ul.childNodes;
+        // for(var i=0;i<lis.length;i++){
+        // var xxx = "";
+        // var aOl = document.getElementById('selected-seats');
+        // var oLi = aOl.getElementsByTagName('li');
+        // for(var i=0; i<oLi.length; i++){
+        //     xxx += oLi.innerHTML;
+        // }
+        // document.getElementById("mov_seat").value = xxx;
     }
 
 </script>

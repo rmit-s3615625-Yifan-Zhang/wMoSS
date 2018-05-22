@@ -2,39 +2,40 @@
 
 <div id="movies">
     <div class="downbox">
-        <img src='img/1.jpg'>
+        <a href="schedule.php#table05"><img src='img/1.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki -->
     </div>
     <div class="downbox">
-        <img src='img/2.jpg' >
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Titanic_(1997_film) -->
+        <a href="schedule.php#table08"><img src='img/2.jpg' ></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki-->
     </div>
     <div class="downbox">
-        <img src='img/3.jpg' >
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
+        <a href="schedule.php#table03"><img src='img/3.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki -->
     </div>
     <div class="downbox">
-        <img src='img/4.jpg' >
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
-    </div>
-
-    <div class="downbox">
-        <img src='img/5.jpg'>
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
+        <a href="schedule.php#table04"><img src='img/4.jpg' ></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki-->
     </div>
 
     <div class="downbox">
-        <img src='img/6.jpg'>
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
+        <a href="schedule.php#table06"><img src='img/5.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki-->
     </div>
 
     <div class="downbox">
-        <img src='img/7.jpg'>
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
+        <a href="schedule.php#table01"><img src='img/6.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki -->
     </div>
 
     <div class="downbox">
-        <img src='img/8.jpg'>
-        <!-- Image sourced from https://en.wikipedia.org/wiki/Frozen_(2013_film) -->
+        <a href="schedule.php#table07"><img src='img/7.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki-->
+    </div>
+
+    <div class="downbox">
+        <a href="schedule.php#table02"><img src='img/8.jpg'></a>
+        <!-- Image sourced from https://en.wikipedia.org/wiki-->
     </div>
 </div>
 

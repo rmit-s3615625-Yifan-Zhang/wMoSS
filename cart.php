@@ -55,7 +55,7 @@ if(!empty($_SESSION['order']))
          <h3>Showing at $week $time</h3>";
 
     $htmlcode.= "
-<table id='carttable'><tr><th rowspan=\"3\"><img $images></th><td>$movie</td><td>$theatre</td></tr>
+<table class='carttable'><tr><th rowspan=\"3\"><img $images></th><td>$movie</td><td>$theatre</td></tr>
 <tr><td>$week</td><td>$time</td></tr>
 <tr><td>ticket:$ticket</td><td>＄$price</td></tr></table>";
     $allfee+=$price;

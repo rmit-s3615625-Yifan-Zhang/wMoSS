@@ -2,12 +2,13 @@
     <h2><a id="N1">TIMETABLE</h2>
 </div>
 <div id="timetable">
-    <table cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0" id="table01">
         <tr>
             <td colspan="8" ><h4>The Matrix</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/6.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
 
             <td colspan="7"><b>Movie:</b>The Matrix (1999)</td>
         </tr>
@@ -28,12 +29,13 @@
         </tr>
     </table>
 
-    <table  cellpadding="8" cellspacing="0">
+    <table  cellpadding="8" cellspacing="0" id="table02">
         <tr>
             <td colspan="8" ><h4>Pacific rim</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/8.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>Pacific rim (2013)</td>
         </tr>
         <tr>
@@ -51,12 +53,13 @@
             <td colspan="7" class="choice">You can select 11:00 14:00 17:00 20:00 whole week</td>
         </tr>
     </table>
-    <table  cellpadding="8" cellspacing="0">
+    <table  cellpadding="8" cellspacing="0" id="table03">
         <tr>
             <td colspan="8" ><h4>Holiday</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/3.jpg"></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>Holiday (2014)</td>
         </tr>
         <tr>
@@ -80,12 +83,13 @@
         </tr>
     </table>
 
-    <table  cellpadding="8" cellspacing="0">
+    <table  cellpadding="8" cellspacing="0" id="table04">
         <tr>
             <td colspan="8" ><h4>The Twilight Saga</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/4.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>The Twilight Saga: Breaking Dawn - Part 2 (2012)</td>
         </tr>
         <tr>
@@ -99,7 +103,7 @@
         </tr>
         <tr class="timetable">
             <td class="theatre">THEATRE3</td>
-            <td ></td>
+            <td class="rest">Closed</td>
             <td></td>
             <td class="choice">11:00<br>14:00 <br>17:00 <br>20:00 </td>
             <td></td>
@@ -109,12 +113,13 @@
         </tr>
     </table>
 
-    <table cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0" id="table05">
         <tr>
             <td colspan="8" ><h4>Hard Tide</h4> </td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/1.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Moive:</b>Hard Tide(2015)</td>
         </tr>
         <tr>
@@ -138,12 +143,13 @@
         </tr>
     </table>
 
-    <table cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0" id="table06">
         <tr>
             <td colspan="8"><h4>The Mechanic</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/5.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>The Mechanic(2014)</td>
         </tr>
         <tr>
@@ -166,12 +172,13 @@
             <td class="choice">11:00<br>14:00 <br>17:00 <br>20:00 </td>
         </tr>
     </table>
-    <table cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0" id="table07">
         <tr>
             <td colspan="8" ><h4>Goodfellas</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/7.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>Goodfellas（1990）</td>
         </tr>
         <tr>
@@ -195,12 +202,13 @@
         </tr>
     </table>
 
-    <table cellpadding="8" cellspacing="0">
+    <table cellpadding="8" cellspacing="0" id="table08">
         <tr>
             <td colspan="8" ><h4>Portal</h4></td>
         </tr>
         <tr>
             <td rowspan="3" align="center"><img src="img/2.jpg" ></td>
+            <!-- Image sourced from https://en.wikipedia.org/wiki-->
             <td colspan="7"><b>Movie:</b>Portal: Origins(2013)</td>
         </tr>
         <tr>
